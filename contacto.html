@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <img src="./images/logo.png" alt="Logo Vivero Transfor"> 
+            <h1>Vivero Transfor</h1>
+            <ul>
+                <ion-icon name="mail"></ion-icon> <!--filled-->
+                <ion-icon name="mail-outline"></ion-icon> <!--outline-->
+                <ion-icon name="mail-sharp"></ion-icon> 
+                <ion-icon name="mail"></ion-icon>
+                <li><a href="./inicio.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>                
+                <li><a href="./tips.html">Tips y Cuidados</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./ubicacion.html">Ubicación</a></li>
+                <li><a href="./ubicacion.html">Buscador</a></li>
+                <li><a href="./ubicacion.html">Login y Registro</a></li>
+                <li><a href="./ubicacion.html">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://formspree.io/f/xyzwgqkw" method="POST">
+            <input type="text" name="Nombre" id="nombre" placeholder="Ingrese su nombre">
+            <input type="text" name="Apellido" id="apellido" placeholder="Ingrese su apellido">
+            <input type="password" name="Password" id="password" placeholder="Ingrese su password">
+            <input type="date">
+            <input type="email" name="Email" id="email" placeholder="Ingrese su email">
+            <br>
+            <textarea name="Consulta" rows="5" cols="30" placeholder="Escriba su consulta" id=""></textarea>
+            <input type="submit" name="Submit" id="submit">
+            <br>
+            <input type="reset" name="Reset" id="reset" placeholder="Restablecer">
+        </form>
+    </main>
+    
+    <footer>
+        
+        <p>Desarrolladora: Nelly Herrero - 2025 <a href="mailto:transfor2008@gmail.com">Contactar por email a Vivero Transfor</a></p>
+
+    </footer>
+
+</body>
+</html>

@@ -10,7 +10,10 @@
   font-size: 16px;
 }
 
-.container {
+.menu {
+  background-image: url(../images/fondo_menu.png);
+  background-size: cover;
+  border: 1px solid #d5d0d0;
   height: 100px;
   margin: 0;
   padding: 0;
@@ -18,7 +21,6 @@
   position: fixed;
   padding: 0px 40px;
   top: 0px;
-  background-color: #89cf8b;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,21 +35,20 @@
 }
 
 h1 {
-    font-family: "Annie Use Your Telescope", cursive;
-   
-    
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 900;
   font-size: 3rem;
   padding-left: 20px;
   color: rgb(18, 108, 77);
 }
 
-.container .item img {
+.menu .item img {
   padding-top: 10px;
   padding-bottom: 10px;
   width: 6rem;
 }
 
-.container ul li {
+.menu ul li {
   display: flex;
   align-items: center;
   padding-left: 20px;
@@ -67,11 +68,11 @@ a {
 /* MAIN UBICACION */
 
 .ubicacion {
-    position: relative;
-    width: 100wh;
-    height: 800px;
-    margin-top: 60px;
-  background-image: url(../images/fondo1.png);
+  position: relative;
+  width: 100wh;
+  height: 808px;
+  margin-top: 60px;
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -85,23 +86,19 @@ a {
 /* MAIN HOME */
 
 .home {
-    background-image: url(../images/fondo1.png);
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
-  margin-top: 100px;
-  padding: 5px 5px;
-  font-size: 0.3rem;
+  margin-top: 100px;  
+  padding-top: 36px;
+  padding-bottom: 36px;
 }
 
-.home .carousel {
-  padding: 10px;
-  text-align: center;
-}
 
 /* MAIN PRODUCTOS */
 
 .productos {
   margin: 0;
-  background-image: url(../images/fondo1.png);
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
   padding: 130px 0 30px 0;
   width: 100%;
@@ -109,7 +106,7 @@ a {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 25px;
 }
 
 img {
@@ -157,7 +154,7 @@ figure button {
 /* MAIN CONTACTO */
 
 .contacto {
-  background-image: url(../images/fondo1.png);
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
   width: 100%;
   display: flex;
@@ -172,8 +169,8 @@ figure button {
 .form {
   width: 100%;
   display: flex;
-  margin-top: 155px;
-  margin-bottom: 58px;
+  margin-top: 159px;
+  margin-bottom: 62px;
   flex-direction: column;
   padding: 30px;
   border: 1px solid #ccc;
@@ -216,7 +213,7 @@ figure button {
 #reset {
   display: block;
   margin: 0 auto;
-    font-weight: bold;
+  font-weight: bold;
   width: 30%;
   padding: 10px 30px;
   background-color: #f06262;
@@ -229,44 +226,56 @@ figure button {
 /* MAIN TIPS */
 
 .tip {
-    background-image: url(../images/fondo1.png);
+  display: flex;
+  padding: 177px 0px 77px 0px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
-  margin-top: 100px;
-  padding: 0px 40px;
-  font-size: 0.3rem;
 }
 
 
 /* MAIN USER */
 
 .user {
-    background-image: url(../images/fondo1.png);
+  background-image: url(../images/fondo_main.png);
   background-size: cover;
   margin-top: 100px;
   padding: 0px 40px;
   font-size: 0.3rem;
 }
 
-
 /* FOOTER */
 
 footer {
   height: auto;
-  padding: 20px 40px;
-  background-color: #89cf8b;
+  padding: 15px 40px;
+  background-image: url(../images/fondo_menu.png);
+  background-size: cover;
+  border: 1px solid #d5d0d0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer .footer {
+footer .pie {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-size: 1rem;
   color: rgb(18, 108, 77);
   font-weight: bold;
 }
 
-footer .footer a {
+footer .pie a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding-left: 10px;
+}
+
+footer span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
